@@ -1,0 +1,141 @@
+body{
+    background-color: black;
+
+}
+
+.navBar{
+    color: blue;
+    text-align: center;
+}
+
+.logoLoc{
+    text-align:center;
+}
+.linklock{
+    position: relative;
+}
+
+
+.links{
+    display:inline
+
+}
+.navLink{
+    background-color: orange;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.6;
+    border-radius: 10px;
+   /* display: inline;*/
+   box-shadow : 50px rgba(red, green, blue, alpha)
+    
+}
+
+h2{
+    color: orange;
+}
+
+.navLink:hover{
+    opacity:1;
+    background-color : gray;
+}
+
+
+#navbar button {
+    display: inline;
+    padding: 500 px;
+}
+
+.first{
+
+    background-color: blue;
+
+}
+
+#wrapper ul{
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    list-style-type: none;
+}
+
+
+#wrapper ul li{
+background-color: orange;
+padding: 30px;
+margin-bottom:20px;
+display: table;
+width:100%;
+border-radius:10px;
+
+}
+#wrapper ul li img{
+    float:left;
+    max-width:300px;
+    max-height: 300px;
+}
+
+#wrapper ul li .details{float:right;width: 75%}
+
+footer{
+    text-align: center;
+    color: orange;
+    bottom: 0;
+    
+    position: relative;
+    height: 40px;
+    margin-bottom: -40px;
+}
+
+.contact-form{
+
+    margin: auto;
+    width: 100%;
+    max-width : 600px;
+    background : gray;
+    position : absolute;
+    top: 60%;
+    left:50%;
+    padding: 30px 40px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-align: center;
+    box-sizing:border-box;
+    padding-top: 50px;
+
+}
+.txtb{
+    border:1p soldi gray;
+    margin: 8px 0;
+    padding :12px 18px;
+    border-radius:8px;
+}
+
+.txtb label{
+   /* display :block;*/
+    text-align : left;
+    text-transform : uppercase;
+}
+.txtb textarea{
+    width: 100%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: gray
+  }
+  
+  td, th {
+    
+    border: 1px solid #cfcc1c;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dbb537;
+  }
